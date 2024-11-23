@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sol de Oro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Restaurante Sol de Oro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Reservas.html">Reservas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Menu.html">Menú</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrusel -->
+    <div id="carouselExample" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagen1.jpg" class="d-block w-100" alt="Imagen 1">
+                <div class="carousel-caption">
+                    <a href="Reservas.html" class="btn btn-primary">Reservar ahora</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagen2.jpg" class="d-block w-100" alt="Imagen 2">
+                <div class="carousel-caption">
+                    <a href="Reservas.html" class="btn btn-primary">Reservar ahora</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagen3.jpg" class="d-block w-100" alt="Imagen 3">
+                <div class="carousel-caption">
+                    <a href="Reservas.html" class="btn btn-primary">Reservar ahora</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Descripción del Restaurante con Imagen -->
+    <section class="container mt-5">
+        <div class="row align-items-center">
+            <!-- Imagen -->
+            <div class="col-md-6">
+                <img src="foto3.jpg" alt="foto3" class="img-fluid rounded">
+            </div>
+            <!-- Texto -->
+            <div class="col-md-6 text-light bg-dark p-4">
+                <h2 class="text-center">Bienvenidos a Sol de Oro Restaurant</h2>
+                <p>Sol de Oro Restaurant es un encantador y acogedor restaurante ubicado en Santa Isabel. Ofreciendo una experiencia culinaria excepcional, el restaurante se especializa combinar sabores exclusivos con un toque moderno. En el menú, podrás encontrar platos muy únicos por su sabor.</p>
+                <p>Sol de Oro Restaurant se enorgullece de utilizar ingredientes frescos, brindando a sus comensales una experiencia gastronómica única en un ambiente cálido y amigable. Inspirado en la rica herencia cultural de Perú, combinada con ingredientes traídos de otros países, para dar calidad y una profunda conexión, ofreciendo a sus visitantes no solo una comida deliciosa, sino también una inmersión en la tradición y modernidad de la gastronomía peruana.</p>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="Menu.html" class="btn btn-primary mx-2">Ver Carta</a>
+                    <a href="Reservas.html" class="btn btn-success mx-2">Reservar</a>
+                    <a href="Contacto.html" class="btn btn-secondary mx-2">Conócenos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Dirección: Calle Delicias 123, San Isidro</p>
+        <p>Teléfono: +123 456 7890</p>
+        <p>Horario de Atención: Lunes - Domingo, 12:00 PM - 10:00 PM</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
